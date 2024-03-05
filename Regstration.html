@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+
+        }
+        body{
+            background: url('Images/OIP.jpg') no-repeat;
+            background-size: cover;
+            color: #fff;
+        }
+        .registration-form{
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform:translate(-50%,-50%);
+            width: 350px;
+        }
+        .registration-form h1{
+            font-size: 40px;
+            text-align: center;
+            text-transform: uppercase;
+            margin: 40px 0;
+        }
+        .registration-form p{
+            font-size: 20px;
+            margin: 15px 0;
+        }
+        .registration-form input{
+            font-size: 16px;
+            padding: 15px 10px;
+            width: 100%;
+            border: 0;
+            border-radius: 5px;
+            outline: none;
+        }
+        .registration-form button{
+            font-size: 18px;
+            font-weight: bold;
+            margin: 20px 0;
+            margin-left: 14px;
+            padding: 15px 10px;
+            width: 100%;
+            border: 0;
+            border-radius: 50px;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="registration-form">
+        <h1>Registration Form</h1>
+        <form action="#" method="post">
+            <p>Full Name:</p>
+            <input type="text" name="fullname" placeholder="Full Nmae">
+            <p>User Name:</p>
+            <input type="text" name="username" placeholder="User Name">
+            <p>Email:</p>
+            <input type="email" name="email" placeholder="Email">
+            <p>Password:</p>
+            <input type="Password" name="password" placeholder="Password">
+            <p>Male:</p>
+            <input type="radio" name="male" >
+            <button type="submit">Registration</button>
+        </form>
+    </div>
+</body>
+</html>
